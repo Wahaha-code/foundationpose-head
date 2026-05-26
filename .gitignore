@@ -1,0 +1,45 @@
+# Python cache / editor files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary outputs
+logs/
+*.log
+*.tmp
+*.bak
+result.png
+color_image.png
+depth_image.png
+tmp/
+debug/
+
+# Build intermediates, but keep runtime extension .so files committed
+build/
+dist/
+*.egg
+*.egg-info/
+*.o
+*.a
+*.lib
+*.dll
+*.dylib
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+.ninja_deps
+.ninja_log
+bundlesdf/mycuda/build/
+
+# Optional model formats not used by this runtime
+*.onnx
+*.pkl
+*.ckpt
+*.npz
+*.jpg
